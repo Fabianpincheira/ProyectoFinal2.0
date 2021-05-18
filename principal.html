@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Certificacion Desarrollo Web" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="fonts/Lato-Black.ttf">
+    <script src="js/registro.js"></script>
+    <script src="js/validar.js"></script>
+    <title>Proyecto Final - Escalab</title>
+    
+</head>
+
+<body>
+    <!-- Pagina Principal de inicio -->
+   
+    <header class="cabecera">
+        <nav class="menu">
+            <a class="logo" href="index.html" target="_blank"><img src="image/naturaleza.png" alt="Logo" height="60px"></a>
+            <ul class="link-menu">
+                <il><a class="link" href="">Alojaminetos</a></il>
+                <il><a class="link" href="">Contacto</a></il>
+                <il><a class="link cta-btn" href="">Registrarme</a></li>
+            </ul>
+            <!-- responsive  <ul class="menu-link-mobile">
+                <li><a class="links-menu" href="">Home</a></li>
+                <li><a class="links-menu" href="">Servicios</a></li>
+                <li><a class="links-menu" href="">Beneficios</a></li>
+                <li><a class="links-menu cta-btn" href="">Cotizar</a></li>
+            </ul> -->
+        </nav>
+       
+        <section class="seccion-principal">
+            <hgroup>
+                <h1 class="titulo-principal"><span class="titulo-principal">Solicita nuestros Servicios y Disfruta.</span> </h1>
+                <h3 class="titutlo-descripcion">En medio de la naturaleza. <br><br> </h3>
+                <a class="subtitulo-descripcion2"> Hazte socio con nosotros.</a>            
+                <a class="btn-titulo" href="http://" target="_blank">¡Inspirate!</a>
+            </hgroup>
+            <!-- <figure>
+             <img class="image-hero img-responsive" src="images/img-header.svg" alt="Aprende desarrollo Web en Escalab Academy">
+            </figure> REEMPLAR ESTO-->
+        </section>
+    </header>
+    
+    <!-- Contenido -->
+    <main>
+        <!-- Lugares -->
+        <section class="seccion-articulos">
+            <h1 class="titulo-servicios">Descubre destinos cerca de ti.</h1>
+            <div class="contenedor">
+                <article class="articulos-servicios">
+                    <figure class="imagenes-articulos"><img class="image-art" src="image/viña.png" alt=""></figure>
+                    <h3 class="subtitulos-servicios">Viña del Mar</h3>
+                    <p>2 Horas en automovil.</p>
+                </article>
+                <article class="articulos-servicios">
+                    <figure class="imagenes-articulos"><img class="image-art" src="image/serena2.png" alt=""></figure>
+                    <h3 class="subtitulos-servicios">La Serena.</h3>
+                    <p>6 horas en automovil.</p>
+                </article>
+                <article class="articulos-servicios">
+                    <figure class="imagenes-articulos"><img class="image-art" src="image/valpo.png" alt=""></figure>
+                    <h3 class="subtitulos-servicios">Valparaiso</h3>
+                    <p>2 Horas en automovil</p>
+                </article>
+                <article class="articulos-servicios">
+                    <figure class="imagenes-articulos"><img class="image-art" src="image/mati2.png" alt=""></figure>
+                    <h3 class="subtitulos-servicios">Temuco</h3>
+                    <p>7 horas en automovil</p>
+                </article>
+            </div>
+        </section>
+        <!-- Beneficios -->
+        <section class="seccion-productos">
+            <div class="contenedor2">
+                <h1 class="titulo-producto">Vive donde quieres</h1>
+                <div class="contenedor-producto">
+                    <article class="articulo-prducto">
+                        <figure><img class="img-producto" src="image/3ZLGWQMYCND6XIQHZ6QMLEP35Y.webp" alt=""></figure>
+                        <div>
+                            <h3>Produccion en la Naturaleza</h3>
+                            <p> Experiencia Online.</p>
+                        </div>
+                    </article>
+                    <article class="articulo-producto">
+                        <figure><img class="img-producto" src="image/tinaja.jpeg" alt=""></figure>
+                        <div>
+                            <h3>Alojamientos unicos </h3>
+                            <p>Experiencia Presenciales </p>
+                        </div>
+                    </article>
+                    <article class="articulo-producto">
+                        <figure><img class="img-producto" src="image/familia y perro.jpg" alt=""></figure>
+                        <div>
+                            <h3>Alojamientos para 2 familias y mascotas. </h3>
+                            <p>Relajemos en Familia.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+           <!--  <figure class="producto-imagen">
+                <img class="imagen-producto" src="image/" alt="">
+            </figure> -->
+        </section>
+        <!--    Hazte socio -->
+        <section class="seccion-contacto">
+            <h1 class="titulo-contacto">Ingresa tus datos y hazte anfitrion. </h1>
+
+            <form action="" class="form"  id="formulario" onsubmit=" return validacion()"> 
+                <div class="container-contacto">
+                    <input class="caja-formuario"  type="text" name="nombre" id="nombre"  placeholder="Ingresa tu nombre completo.">
+                </div>
+                <div class="container-contacto">
+                    <input class="caja-formuario" type="email" name="email" id="email"  placeholder="Ingresa tu correo.">
+                </div>
+                <div class="container-contacto">
+                    <input class="caja-formuario" type="number" name="telefono" id="telefono"  placeholder="Ingresa tu teléfono.">
+                </div>
+
+                <div class="container-contacto">
+                    <input class="caja-formuario" type="text" name="direccion" id="direccion"  placeholder="Ingresa tu direccion.">
+                </div>
+              <!--    <div class="container-contacto">
+                  required autocomplete="on"
+required autocomplete="on"
+required autocomplete="on"
+required autocomplete="on"
+                    <select class="selector-form" required>
+                        <option value="html5">HTML5</option>
+                        <option value="css3">CSS3</option>
+                        <option value="javascript">Javascript</option>
+                        <option value="git">Git/Github</option>
+                    </select>
+                </div> --> 
+                <div class="container-comentario">
+                    <textarea class="caja-comentario" name="caja-contacto" id="comentario" cols="30" rows="10" placeholder="Déjanos tu comentario..." minlength="10" maxlength="200"></textarea>
+                </div>
+                <button onclick="AgregarDatos()" class="btn-enviar" type="submit" value="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="pie-pagina">
+        <h6 class="copy">© 2021 Desarroladores, Inc.Privacidad·Condiciones·Mapa del sitio·Datos de la empresa.</h6>
+    </footer>
+</body>
+
+</html>
