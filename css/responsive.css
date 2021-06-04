@@ -1,0 +1,374 @@
+/*PANTALLA TELEVISOR */
+
+@media screen and (max-width: 1400px) {
+    .menu{
+        width: 1400px;
+    }
+    nav ul il a{
+        padding: 10px;
+    }
+
+    body{
+       background-color: rgb(238, 232, 232);
+
+    }
+
+    .seccion-principal{
+        width: 1400px;
+        padding: 10px;
+        display: block !important;
+       
+    }
+
+    
+ /*RESPONSIVE SECCION LUGARES  */
+
+
+ .seccion-articulos, .titulo-servicios, .contenedor, .articulos-servicios, .imagenes-articulos, .image-art, .subtitulos-servicios, .parrafo{
+    justify-content: space-between;
+    width: 330px;
+    background-color: rgb(238, 232, 232);
+    font-size: 20px;
+    
+ }
+
+  /*RESPONSIVE SECCION BENEFICIOS */
+
+  .seccion-productos, .contenedor2, .titulo-producto, .contenedor-producto, .articulo-prducto, .img-producto, .subtitulo-img, .parrafo2{
+     width: 330px;
+     margin: 20px;
+     background-color: rgb(238, 232, 232);
+     font-size: 20px;
+          
+  }
+
+  /*RESPONSIVE SECCION FORMULARIO*/
+
+  .seccion-contacto, .titulo-contacto, .form, .container-contacto, .caja-formuario{
+    margin: 5px;
+    width: 1400px;
+    border-radius: 10px;
+    text-align: center;
+    
+  }
+   .caja-formuario{
+       width: 500px;
+   }
+
+   .container-comentario{
+       display: block;
+       justify-content: center;
+       width: 1400px;
+   }
+   
+   footer{
+    width: 1400px;
+}
+
+}
+
+/*PANTALLA PC O NOTEBOOK */
+
+@media screen and (max-width: 970px) {
+    .menu{
+        width: 970px;
+    }
+    nav ul il a{
+        padding: 10px;
+    }
+
+    body{
+       background-color: rgb(238, 232, 232);
+
+    }
+
+    .seccion-principal{
+        width: 970px;
+        padding: 10px;
+        display: block !important;
+       
+    }
+
+    
+ /*RESPONSIVE SECCION LUGARES  */
+
+
+ .seccion-articulos, .titulo-servicios, .contenedor, .articulos-servicios, .imagenes-articulos, .image-art, .subtitulos-servicios, .parrafo{
+    justify-content: space-between;
+    width: 230px;
+    background-color: rgb(238, 232, 232);
+    font-size: 20px;
+    
+ }
+
+  /*RESPONSIVE SECCION BENEFICIOS */
+
+  .seccion-productos, .contenedor2, .titulo-producto, .contenedor-producto, .articulo-prducto, .img-producto, .subtitulo-img, .parrafo2{
+     width: 230px;
+     margin: 20px;
+     padding: 5px;
+     background-color: rgb(238, 232, 232);
+     font-size: 20px;
+          
+  }
+
+  /*RESPONSIVE SECCION FORMULARIO*/
+
+  .seccion-contacto, .titulo-contacto, .form, .container-contacto, .caja-formuario{
+    margin: 5px;
+    width: 970px;
+    border-radius: 10px;
+    text-align: center;
+    
+  }
+   .caja-formuario{
+       width: 500px;
+   }
+
+   .container-comentario{
+       display: block;
+       justify-content: center;
+       width: 970px;
+   }
+   
+   footer{
+    width: 970px;
+}
+
+}
+
+/*PANTALLA TABLET */
+
+@media screen and (max-width: 767px) {
+
+    nav, nav ul{
+        padding:0;
+
+    }
+
+    nav ul il {
+        text-align: center;
+        width: 200px;
+    }
+    nav il a{
+        display: block !important;
+    }
+    .seccion-principal, .titulo-principal, .titutlo-descripcion, .subtitulo-descripcion2, .btn-titulo {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        width: 767px;
+        
+    }
+    .btn-titulo {
+        width: 100px;
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+    }
+
+ /*RESPONSIVE SECCION LUGARES  */
+
+
+ .seccion-articulos, .titulo-servicios, .contenedor, .articulos-servicios, .imagenes-articulos, .image-art, .subtitulos-servicios, .parrafo{
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 180px;
+    background-color: rgb(238, 232, 232);
+    font-size: 20px;
+    
+ }
+
+  /*RESPONSIVE SECCION BENEFICIOS */
+
+  .seccion-productos, .contenedor2, .titulo-producto, .contenedor-producto, .articulo-prducto, .img-producto, .subtitulo-img, .parrafo2{
+     width: 200px;
+     margin: 10px;
+     background-color: rgb(238, 232, 232);
+     font-size: 20px;
+          
+  }
+
+  /*RESPONSIVE SECCION FORMULARIO*/
+
+  .seccion-contacto, .titulo-contacto, .form, .container-contacto, .caja-formuario{
+    margin: 5px;
+    width: 767px;
+    border-radius: 10px;
+    text-align: center;
+    
+  }
+   .caja-formuario{
+       width: 500px;
+   }
+
+   .container-comentario{
+       display: block;
+       justify-content: center;
+       width: 720px;
+   }
+
+   footer{
+    width: 720px;
+}
+
+}
+
+/*PANTALLA SMARTPHONE */
+
+@media screen and (max-width: 600px) {
+    nav, nav ul{
+        padding:0;
+    }
+
+    nav ul il {
+        text-align: center;
+        width: 100%;
+    }
+    nav il a{
+        display: block !important;
+    }
+
+    .menu{
+        width: 600px;
+    }
+    nav ul il a{
+        padding: 10px;
+    }
+
+    body{
+       background-color: rgb(238, 232, 232);
+
+    }
+
+    .seccion-principal{
+        width: 300px;
+        padding: 10px;
+        display: block !important;
+       
+    }
+    
+ /*RESPONSIVE SECCION LUGARES  */
+
+
+ .seccion-articulos, .titulo-servicios, .contenedor, .articulos-servicios, .imagenes-articulos, .image-art, .subtitulos-servicios, .parrafo{
+    display: flexbox;
+    flex-direction: column;
+    background-color: rgb(238, 232, 232);
+    font-size: 20px;
+
+    
+ }
+
+  /*RESPONSIVE SECCION BENEFICIOS */
+
+  .seccion-productos, .contenedor2, .titulo-producto, .contenedor-producto, .articulo-prducto, .img-producto, .subtitulo-img, .parrafo2{
+    display: inline-block;
+    background-color: rgb(238, 232, 232);
+    font-size: 20px;
+          
+  }
+
+  /*RESPONSIVE SECCION FORMULARIO*/
+
+  .seccion-contacto, .titulo-contacto, .form, .container-contacto, .caja-formuario{
+    margin: 5px;
+    width: 580px;
+    border-radius: 10px;
+    text-align: center;
+    
+  }
+   .caja-formuario{
+       width: 400px;
+   }
+
+   .container-comentario{
+       display: block;
+       justify-content: center;
+       width: 100px;
+   }
+
+   footer{
+    width: 600px;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+    nav, nav ul{
+        padding:0;
+    }
+
+    nav ul il {
+        text-align: center;
+        width: 100%;
+    }
+    nav il a{
+        display: block !important;
+    }
+
+    .menu{
+        width: 470px;
+    }
+    nav ul il a{
+        padding: 10px;
+    }
+
+    body{
+       background-color: rgb(238, 232, 232);
+
+    }
+
+    .seccion-principal{
+        width: 400px;
+        padding: 5px;
+        display: block !important;
+       
+    }
+    
+ /*RESPONSIVE SECCION LUGARES  */
+
+
+ .seccion-articulos, .titulo-servicios, .contenedor, .articulos-servicios, .imagenes-articulos, .image-art, .subtitulos-servicios, .parrafo{
+    justify-content: space-between;
+    width: 120px;
+    background-color: rgb(238, 232, 232);
+    font-size: 15px;
+    
+ }
+
+  /*RESPONSIVE SECCION BENEFICIOS */
+
+  .seccion-productos, .contenedor2, .titulo-producto, .contenedor-producto, .articulo-prducto, .img-producto, .subtitulo-img, .parrafo2{
+     width: 120px;
+     margin: 0.5px;
+     background-color: rgb(238, 232, 232);
+     font-size: 17px;
+          
+  }
+
+  /*RESPONSIVE SECCION FORMULARIO*/
+
+  .seccion-contacto, .titulo-contacto, .form, .container-contacto, .caja-formuario{
+    margin: 5px;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    
+  }
+   .caja-formuario{
+       width: 280px;
+   }
+
+   .container-comentario{
+       display: block;
+       justify-content: center;
+       width: 10px;
+   }
+
+   footer{
+    width: 400px;
+}
+
+    }
